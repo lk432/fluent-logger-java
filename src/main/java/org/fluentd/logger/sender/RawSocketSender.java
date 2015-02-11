@@ -21,7 +21,6 @@ import org.fluentd.logger.errorhandler.ErrorHandler;
 import org.msgpack.MessagePack;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -29,7 +28,7 @@ import java.net.Socket;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 import java.util.Map;
-
+//read source code
 public class RawSocketSender implements Sender {
 
     private static final Logger LOG = LoggerFactory.getLogger(RawSocketSender.class);
